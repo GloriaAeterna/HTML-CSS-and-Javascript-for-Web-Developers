@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mod3-solution.css">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="img/image/x-icon">
 </head>
 
 <body>
@@ -25,17 +27,16 @@
 
 					 	<div id="collapsable-nav" class="collapse navbar-collapse" class="hidden-md">
 		           <ul id="nav-list" class="nav navbar-nav navbar-right">
-								<li><a class="menu-item1" class="hidden-xs" href="#">Chicken</a></li>
-		 						<li><a class="menu-item2" class="hidden-xs" href="#">Beef</a></li>
-		 						<li><a class="menu-item3" class="hidden-xs" href="#">Sushi</a></li>
+								<li><a class="menu-item1" class="hidden-xs" href="#chicken">Chicken</a></li>
+		 						<li><a class="menu-item2" class="hidden-xs" href="#beef">Beef</a></li>
+		 						<li><a class="menu-item3" class="hidden-xs" href="#sushi">Sushi</a></li>
 		          </ul>
 					</div>
  		</nav>
   </header>
 
 
-  <h1 class="text-center">Our page</h1>
-
+  <h1 class="text-center" id="top">Our page</h1>
   <div class="row">
 
     <div class="col-md-4 col-sm-6 col-xs-12">
@@ -65,6 +66,7 @@
       </section>
     </div>
   </div>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 	<!-- jQuery (Bootstrap JS plugins depend on it) -->
 	<script src="js/jquery-2.1.4.min.js"></script>
