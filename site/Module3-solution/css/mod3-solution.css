@@ -11,7 +11,6 @@ html {
 body {
 	background-color:#dddeff;
 }
-
 section {
 	background-color:	#bfc5e8;
 	overflow: hidden;
@@ -19,9 +18,7 @@ section {
 	height: 900px;
 	border: 1px solid #7b81aa;
 	border-radius: 3px;
-
 }
-
 #myBtn {
   display: none;
 	font-family: "Courier";
@@ -40,17 +37,14 @@ section {
 	border: 1px solid #dddeff;
   border-radius: 4px;
 }
-
 #myBtn:hover {
   background-color: #7b81aa;
 	opacity: 1.0;
 }
-
 h1 {
 	color: #7b81aa;
 	font-family: "Courier";
 }
-
 h1.text-center {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -59,12 +53,9 @@ h1.text-center {
 .navbar-collapse {
 	border:none;
 }
-
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
 	margin: 0;
 }
-
-
 a.navbar-brand {
 	margin: 0;
 	padding: 0;
@@ -78,21 +69,17 @@ nav#header-nav.navbar.navbar-default {
 	margin: 0;
 	background-color: #bfc5e8;
 }
-
 div.container {
 	padding: 0;
 	margin: 0;
 	width: 100%;
 }
-
 section p {
 	margin: 75px 20px 0px 20px;
 	text-align: justify;
 	font-size: 14px;
 	overflow: hidden;
 }
-
-
 h3 {
 	margin: 0;
 	text-align: center;
@@ -104,43 +91,34 @@ h3 {
 	width: 100%;
 	letter-spacing: 2px;
 }
-
 .row {
 	margin:0!important;
 	padding-left: 20px;
 	padding-right: 20px;
 	margin-bottom: 75px!important;
 }
-
 .chicken {
 	margin-bottom: 20px;
 }
-
 .beef {
 	margin-bottom: 20px;
 }
-
 .sushi {
 	margin-bottom: 20px;
 }
-
 #chicken {
 	background-color: #D59898;
 	padding-top: 7px;
 }
-
 #beef {
 	background-color: #C14543;
 	color: white;
 	padding-top: 7px;
 }
-
 #sushi {
 	background-color: #E5D198;
 	padding-top: 7px;
 }
-
-/** HEADER **/
 .container {
 	margin-right: 20px;
 	margin-right: 20px;
@@ -150,12 +128,10 @@ h3 {
 	text-decoration: none;
   color:	#7b81aa;
 }
-
 #header-nav {
   border-radius: 0;
   border: 0;
 }
-
 .navbar-default .navbar-brand {
 	margin: 0;
 	font-size: 35px;
@@ -164,11 +140,9 @@ h3 {
 	height: 100%;
   align-items: center;
 }
-
 .navbar-default .navbar-toggle {
 	border-color: 	#dddeff;
 }
-
 #nav-list .menu-item1 {
 	text-align: center;
 	background-color: #D59898;
@@ -178,7 +152,6 @@ h3 {
 	border: 1px solid #dddeff;
 	margin-bottom: 5px;
 }
-
 #nav-list .menu-item2 {
 	text-align: center;
 	background-color: #C14543;
@@ -188,7 +161,6 @@ h3 {
 	border: 1px solid #dddeff;
 	margin-bottom: 5px;
 }
-
 #nav-list .menu-item3 {
 	text-align: center;
 	background-color: #E5D198;
@@ -198,7 +170,6 @@ h3 {
 	border: 1px solid #dddeff;
 	margin-bottom: 5px;
 }
-
 li {
 	box-sizing: border-box;
 	width: 100%;
@@ -207,7 +178,6 @@ button.navbar-toggle {
 	padding: 15px;
 	margin: 10px;
 }
-
 .navbar-toggle .icon-bar{
 	display: block;
   width: 22px;
@@ -215,16 +185,13 @@ button.navbar-toggle {
   border-radius: 3px;
 	background:	#dddeff!important;
 }
-
 div.navbar-header {
 	padding: 30px 5.5% 0 5.5%;
 	height: 100px;
 }
-
 .navbar-header button.navbar-toggle {
   clear: both;
 }
-
 .navbar-header button.navbar-toggle:hover {
   background-color: #7b81aa!important;
 }
@@ -234,7 +201,6 @@ background: none;
 .navbar-header button.navbar-toggle {
   background-color: #98a2cc!important;
 }
-/* END HEADER */
 
 @media (min-width: 768px) {
 #nav-list {
@@ -243,34 +209,22 @@ background: none;
 
 /********** xsall devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
 }
-
 
 /********** Extra xsall devices only **********/
 @media (max-width: 767px) {
-  /* Header */
-
-    .navbar-brand h1 { /* Restaurant name */
-    font-size: 5vw; /* 1vw = 1% of viewport width */
+    .navbar-brand h1 {
+    font-size: 5vw;
   }
-
-#collapsable-nav a { /* Collapsed nav menu text */
-}
 
 #xs-deliver {
   margin-top: 5px;
   letter-spacing: .1em;
   text-transform: uppercase;
-}  /* End Header */
-
-
-
-
+}
 
 
 /* Desktop view options */
-
 @media (min-width: 992px) {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     }
@@ -312,9 +266,7 @@ background: none;
     }
 }
 
-
 /* Tablet view options */
-
 @media (min-width: 768px) and (max-width: 991px) {
     .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     }
@@ -356,9 +308,7 @@ background: none;
     }
 }
 
-
 /* Mobile view options */
-
 @media (max-width: 767px) {
     .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
     }
