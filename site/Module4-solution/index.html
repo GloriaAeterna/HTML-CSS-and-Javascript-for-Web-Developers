@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Module4 Solution</title>
+		<meta charset="utf-8"
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="img/favicon.ico" type="../img/image/x-icon">
+		<script src="SpeakHello.js"></script>
+		<script src="SpeakGoodBye.js"></script>
+		<script src="script.js"></script>
+  </head>
+	<body>
+		<div id="title">
+			<h1>Hello there,<br>fellow web developer!</h1>
+		</div>
+
+		<div id="justabox">
+			<p>
+				On this web page you will find a solution to Module 4 assignment.
+				<br>Solution is visible inside the browsers console.
+			</p>
+		</div>
+
+		<div id="wholebox">
+			<h2>Instructions of this assignment:</h2>
+				<p>
+					In this assignment, you have to loop over an array of names and print out either a "hello" or "goodbye" to that name to the browser console. If the name starts with a letter "j" or "J", you are to print out "Goodbye JSomeName". If the name starts with any other letter, you are to print out "Hello SomeName".
+				</p>
+		</div>
+		<div id="anotherbox">
+			<h2>Before you continue...</h2>
+			<div class="popup" onclick="myFunction()">...click me!
+				<span class="popuptext" id="myPopup">Wish you have a wonderful day!</span>
+			</div>
+		</div>
+		<script>
+		// Just some extra fun with this web page
+		function myFunction() {
+		  var popup = document.getElementById("myPopup");
+		  popup.classList.toggle("show");
+		}
+		</script>
+	</body>
+</html>
